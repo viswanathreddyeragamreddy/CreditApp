@@ -10,7 +10,7 @@ config();
 @Module({
   imports: [
     MongooseModule.forRoot(`${process.env.MONGO_URL}`, {
-      dbName: 'CreditSea'
+      dbName: 'CreditApp'
     }),
     LoanDetailsModule
   ],
